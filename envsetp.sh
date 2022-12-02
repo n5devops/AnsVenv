@@ -7,8 +7,6 @@ cd Python-3.9.6
 sudo ./configure --enable-optimizations 
 sudo make altinstall 
 echo "ENTER DIRECTORY" 
-mkdir pycode
-cd /home/ec2-user/pycode
 pwd
 sudo rm -f Python-3.9.6.tgz
 echo "CHECK PYTHON VERSION" 
