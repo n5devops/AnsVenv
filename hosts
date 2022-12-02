@@ -1,5 +1,5 @@
 [appsrv]
-43.205.199.76
+13.127.215.74
 
 [appsrv:vars]
 ansible_ssh_user=ec2-user
