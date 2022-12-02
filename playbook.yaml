@@ -1,0 +1,5 @@
+---
+- hosts: "appsrv"
+  name: python gunicorn deployment
+  - name: install python venv 
+    shell: "cd pycode; chmod +x envsetp.sh; ./envsetp.sh"
