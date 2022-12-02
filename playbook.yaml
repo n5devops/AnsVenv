@@ -1,8 +1,8 @@
 ---
 - hosts: "appsrv"
   name: python gunicorn deployment
-   - name: Copy pyconf files 
-     copy:
+  - name: Copy pyconf files 
+    copy:
         src: "envsetp.sh"
         dest: "/home/ec2-user/envsetp.sh"
   - name: install python venv 
