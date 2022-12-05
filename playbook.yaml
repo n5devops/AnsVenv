@@ -6,5 +6,7 @@
     copy:
         src: "envsetp.sh"
         dest: "/home/ec2-user/envsetp.sh"
-  - name: install python venv 
+  - name: install python 
     shell: "chmod +x envsetp.sh; ./envsetp.sh"
+  - name: activte python venv 
+    shell: "python3.9 -m venv env; source env/bin/activate; pip3 install gunicorn"
