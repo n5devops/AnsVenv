@@ -3,4 +3,4 @@
   name: python gunicorn deployment
   tasks:
   - name: Create  pyvenv
-    shell: "chmod +x envsetp.sh; ./envsetp.sh"
+    shell: "/usr/local/bin/python3.9 -m venv env"
