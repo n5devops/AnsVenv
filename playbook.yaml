@@ -3,4 +3,4 @@
   name: python gunicorn deployment
   tasks:
   - name: Create  pyvenv
-    command: python3.9 -m venv env
+    shell: "sudo python3.9 -m venv env"
