@@ -9,3 +9,8 @@ cd /home/ec2-user
 echo "ENTER DIRECTORY"
 pwd
 sudo rm -f Python-3.9.6.tgz
+cd ..
+/usr/local/bin/python3.9 -m venv env
+source env/bin/activate
+pip3 install gunicorn
+pip3 install flask
