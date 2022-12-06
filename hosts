@@ -3,4 +3,4 @@
 
 [appsrv:vars]
 ansible_ssh_user=ec2-user
-#ansible_python_interpreter=/usr/local/bin/python3.9
+ansible_python_interpreter=/usr/local/bin/python3.9
